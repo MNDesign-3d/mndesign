@@ -1,0 +1,89 @@
+index.html<!DOCTYPE html>
+<html>
+<head>
+  <title>MNDesign-3d</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:Arial,sans-serif;background:#f8f9fa}
+    .hero{background:#e63946;color:white;padding:100px 20px;text-align:center}
+    .hero h1{font-size:3em;margin-bottom:20px}
+    .btn{background:#1d3557;color:white;padding:15px 30px;border:none;border-radius:50px;font-size:18px;text-decoration:none;display:inline-block;margin:10px}
+    .services{padding:60px 20px}
+    .container{max-width:1200px;margin:0 auto}
+    .row{display:flex;flex-wrap:wrap}
+    .col{margin:20px}
+    .card{background:white;padding:40px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,0.1);text-align:center;flex:1;min-width:300px}
+    .icon{font-size:4em;color:#e63946;margin-bottom:20px}
+    footer{background:#1d3557;color:white;padding:40px;text-align:center}
+    @media(max-width:768px){.hero h1{font-size:2em}.row{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1>🚀 <strong>MNDesign-3d</strong></h1>
+      <p style="font-size:1.5em">Agence Communication • Imprimerie • Vidéo • Design 3D</p>
+      <a href="#contact" class="btn">👉 Démarrer mon projet</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 style="text-align:center;margin-bottom:50px;font-size:2.5em">Nos Services</h2>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="icon">📢</div>
+            <h3>Communication</h3>
+            <p>Stratégie • Réseaux sociaux • Publicité</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="icon">🖨️</div>
+            <h3>Imprimerie</h3>
+            <p>Flyers • Affiches • Goodies</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="icon">🎥</div>
+            <h3>Montage Vidéo</h3>
+            <p>Spots • Motion Design • Pub</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" style="padding:60px 20px;background:#f8f9fa">
+    <div class="container">
+      <h2 style="text-align:center;margin-bottom:40px">📩 Contact</h2>
+      <div style="max-width:600px;margin:0 auto;background:white;padding:40px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,0.1)">
+        <p style="text-align:center;font-size:1.2em;margin-bottom:30px">
+          <strong>Envoyez-nous un message !</strong><br>
+          Réponse en 24h garantie 🚀
+        </p>
+        <div style="text-align:center">
+          <a href="https://wa.me/1234567890?text=Bonjour%20MNDesign-3d%2C%20je%20souhaite%20un%20devis" class="btn" style="background:#25D366">💬 WhatsApp</a>
+          <a href="mailto:contact@mndesign3d.com" class="btn">📧 Email</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2025 <strong>MNDesign-3d</strong> - Agence Communication Gabon</p>
+      <p><a href="#services" style="color:#a8dadc">Services</a> | 
+         <a href="#contact" style="color:#a8dadc">Contact</a></p>
+    </div>
+  </footer>
+</body>
+</html>
